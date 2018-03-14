@@ -14,9 +14,9 @@ In this lesson, we'll unpack what **Babel** brings to the table when developing 
 
 ![Tower of Babel](http://www.ancient-origins.net/sites/default/files/field/image/tower-of-babel-2.jpg)
 
-If you don't have time to procrastinate and read the wiki, and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
+If you don't have time to procrastinate and [read the wiki][origin-myth], and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
 
-The Tower of Babel was a colossal tower project long ago. It was under construction by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the story, (for debated reasons), afflicted the united humans by confounding their speech. This ensured the once united humanity could no longer communicate.<sup>1</sup>
+The Tower of Babel was a colossal construction project long ago. It was being built by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the story, (for debated reasons), afflicted the united humans by confounding their speech. This ensured the once united humanity could no longer communicate.<sup>1</sup>
 
 Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned affliction: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, and `const` vs. their absence in ES5!).
 
@@ -35,7 +35,9 @@ As of 2018, you are in less danger of your target browsers not implementing ES6 
 
 <!-- TODO: instead provoke question "then why do we want to use babel still" here and answer here, then show how its particularly useful for JSX. babel used for synchronization, using new features, via code transformation -->
 
-Even though most major browsers are up to date with the new ES6 features, Babel is still useful when creating web application; even more so in React. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**. Enough theory! Let's see it in action:
+Even though most major browsers are up to date with the current ECMAScript features, Babel is still useful when creating web application, especially so in React. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**.
+
+Enough theory! Let's see it in action:
 
 ```JavaScript
 var profile = (
@@ -74,20 +76,20 @@ No way! _we mustn't_! _we shouldn't_! _we couldn't!_ But If you _need_ know more
 
 ## Summary
 
-You have just read a lot of information about a tool you likely have not worked directly with before. Luckily, its straight forward to summarize:
+You have just been introduced to a tool you likely have not worked directly with before. Luckily, its straight forward to summarize:
 
-**Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this can (and in our case will) include JSX.
+**Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this can (and in our case will) include, but not be limited to, digesting JSX.
 
 ## Looking Forward
 
-That was quite a bit of information, and we have even more coming up. If this is your first time being exposed to a tool like Babel, treat yourself. Stand up, stretch your legs, look at a real human that's not in meme format: you deserve it. When you come back, we will get started on **Webpack** in the following lesson.
+That was a chunk of new information, and we have even more coming up. If this is your first time being exposed to a tool like Babel, treat yourself. Stand up, stretch your legs, look at a real human that's not in meme format: you deserve it. When you come back, we will get started on **Webpack** in the following lesson.
 
 ## Resources
 - [Babel]: http://babeljs.io/
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
 
-<sup>1</sup> Before you have any epiphanies on us, this is most likely _not_ where the term "babbling" comes from
+<sup>1</sup> Before you have any epiphanies on us, this is most likely _not_ where the term "babbling" comes from  
 <sup>2</sup> When 'in the field', so to speak, backwards compatibility will be more important
 
 [origin-myth]: https://en.wikipedia.org/wiki/Tower_of_Babel

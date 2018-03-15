@@ -16,35 +16,41 @@ In this lesson, we'll unpack what **Babel** brings to the table when developing 
 
 If you don't have time to procrastinate and [read the wiki][origin-myth], and want to get on with learning programming, allow us to provide the [TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
 
-The Tower of Babel was a colossal construction project long ago. It was being built by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the story, (for debated reasons), afflicted the united humans by confounding their speech. This ensured the once united humanity could no longer communicate.<sup>1</sup>
+The Tower of Babel was a colossal construction project long ago. It was being built by a united humanity speaking the same language, with the intention of reaching such heights that heaven itself could be accessed. While it was being constructed, the God in the story, (for debated reasons), afflicted the united humans by confounding their speech. This ensured the once united humanity could no longer communicate.<sup>1</sup> What made this ambitious project possible was that multiple cultures, languages, idioms, etc. were all using _a common standard_.
 
-Babel, ([the one we use][babel]), seeks to do the opposite of the aforementioned affliction: it turns many languages/syntaxes/versions into one! As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, and `const` vs. their absence in ES5!).
+As you may already know, JavaScript (based on the ECMAScript [ES] standard) is an evolving language. Over time we have had several iterations. For the most part, ECMAScript's evolution has changed to incorporate more features and language constructs over time (think ES6 arrow functions, class syntax, `let`, and `const` vs. their absence in ES5!). This resembled the "confounded" state described above. What was needed was a way to move all, various standards of JavaScript usage to the same standard. **That** is what the Babel program does &mdash; it makes all JavaSript versions emit a common, standard code.
 
-Babel most notably gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older ES5. This was especially important when ES6 came out because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
+Less metaphorically, Babel gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older (and more widely deployed, at that time) ES5. This was especially important when ES6 came out because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
-As of 2018, you are in less danger of your target browsers not implementing ES6 syntax than before.<sup>2</sup> For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
+As of 2018, you are less likely to encounter browsers **not** implementing ES6 syntax.<sup>2</sup> For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png' height=500 width=300/>
 </p>
 
+_Chrome Boi_
+
 #### Then why is Babel important?
 
-> "To Babel or not to Babel: ay, there's the rub"  
-> &nbsp;&nbsp;&nbsp;&nbsp;&#8211; _William Shakespear's Hamlet[hamlet]_
+If most popular browsers have moved to integrate ES6+ syntax, then why is Babel
+"still a thing?"
 
-<!-- TODO: instead provoke question "then why do we want to use babel still" here and answer here, then show how its particularly useful for JSX. babel used for synchronization, using new features, via code transformation -->
+Babel's competency was in reading in one type of text and making in-place
+transformations such that another type of text came out. Some developers
+realized that by processing their code with Babel, they could write
+code that's terse and convenient and then have Babel turn that code into
+verbose, compliant JavaScript code.
 
-Even though most major browsers are up to date with the current ECMAScript features, Babel is still useful when creating web application, especially so in React. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**.
-
-Enough theory! Let's see it in action:
+Let's take as an example how non-standard JSX can be transformed, via Babel,
+into compliant JavaScript. Succinctly, **Babel turns JSX into normal JavaScript
+written with the React library**:
 
 ```JavaScript
 var profile = (
   <div>
     <img src="avatar.png" className="profile" />
     <h3>{[user.firstName, user.lastName].join(' ')}</h3>
-  </div>;  
+  </div>;
 )
 ```
 
@@ -58,21 +64,18 @@ var profile = (
 );
 ```
 
-While you don't need Babel as a dependency when writing React code, it means you have to write in the non-JSX syntax seen in the output above. For now, we will be teaching and writing with the pre-babel-compiled (first syntax above) JSX in our React applications.
+While you don't **strictly** need Babel as a dependency when writing React
+code, not having it means you have to write in the non-JSX syntax seen in the
+output above. My fingers think that typing that first one is better (because
+they're lazy). My brain also likes that JSX paints an HTML picture in my mind's
+eye. JSX removes the burden on the programmer to calculate an intermediary
+picture of the DOM in their brain when reading this code. For now, we will be
+teaching and writing with the pre-babel-compiled (first syntax above) JSX in
+our React applications.
 
 #### Not Just For JSX
 
 In addition to the JSX magic it provides, Babel can also compile other features and syntactic sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a babel plugin that enables the usage of [language features proposed for ECMAScript, but not yet implemented][babel-stage-2].
-
-#### We must go deeper!
-
-No way! _we mustn't_! _we shouldn't_! _we couldn't!_ But If you _need_ know more about how React incorporates Babel, feel free to run [`npm run eject`][eject] _at your own risk_ in this repository (which was made with `create-react-app`). For the most part, we will be using the handy `create-react-app` when initializing new React projects, which obfuscates pre-configured files from us for user-friendliness and to avoid boiler-plate code. `npm run eject` will undo that obfuscation, and expose you to these pre-built configurations (read: "world of hurt"). For now, we recommend staying focused on improving your high-level React development skills, and leaving the general project configuration up to React.
-
-<p align="center">
-  <img src='https://learn-verified.s3.amazonaws.com/npm-run-eject.jpeg' height=500 width=300/>
-</p>
-
----
 
 ## Summary
 
@@ -85,7 +88,7 @@ You have just been introduced to a tool you likely have not worked directly with
 That was a chunk of new information, and we have even more coming up. If this is your first time being exposed to a tool like Babel, treat yourself. Stand up, stretch your legs, look at a real human that's not in meme format: you deserve it. When you come back, we will get started on **Webpack** in the following lesson.
 
 ## Resources
-- [Babel]: http://babeljs.io/
+- [Babel][babel]
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
 

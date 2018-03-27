@@ -33,8 +33,6 @@ As of 2018, you are in less danger of your target browsers not implementing ES6 
 > "To Babel or not to Babel: ay, there's the rub"  
 > &nbsp;&nbsp;&nbsp;&nbsp;&#8211; _William Shakespear's Hamlet[hamlet]_
 
-<!-- TODO: instead provoke question "then why do we want to use babel still" here and answer here, then show how its particularly useful for JSX. babel used for synchronization, using new features, via code transformation -->
-
 Even though most major browsers are up to date with the current ECMAScript features, Babel is still useful when creating web application, especially so in React. Babel turns JSX into React function calls. That is, **Babel turns JSX into normal JavaScript written with the React library**.
 
 Enough theory! Let's see it in action:

@@ -26,9 +26,10 @@ As of 2018, you are less likely to encounter browsers **not** implementing ES6 s
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png' height=500 width=300/>
+  <em>Chrome Boi</em>
 </p>
 
-_Chrome Boi_
+
 
 #### Then why is Babel important?
 

@@ -83,7 +83,7 @@ You have just been introduced to a tool you likely have not worked directly with
 That was a chunk of new information, and we have even more coming up. If this is your first time being exposed to a tool like Babel, treat yourself. Stand up, stretch your legs, look at a real human that's not in meme format: you deserve it. When you come back, we will get started on **Webpack** in the following lesson.
 
 ## Resources
-- [Babel]: http://babeljs.io/
+- [Babel](http://babeljs.io/)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
 

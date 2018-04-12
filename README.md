@@ -88,23 +88,24 @@ You have just been introduced to a tool you likely have not worked directly with
 That was a chunk of new information, and we have even more coming up. If this is your first time being exposed to a tool like Babel, treat yourself. Stand up, stretch your legs, look at a real human that's not in meme format: you deserve it. When you come back, we will get started on **Webpack** in the following lesson.
 
 ## Resources
-- [Babel][babel]
+- [Babel](http://babeljs.io/)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
 
 <sup>1</sup> Before you have any epiphanies on us, this is most likely _not_ where the term "babbling" comes from  
 <sup>2</sup> When 'in the field', so to speak, backwards compatibility will be more important
 
-[origin-myth]: https://en.wikipedia.org/wiki/Tower_of_Babel
-[TL;DR]: https://en.wikipedia.org/wiki/TL;DR
-[babel]: http://babeljs.io/
-[transpile-compile]: https://stackoverflow.com/questions/43968748/is-babel-a-compiler-or-transpiler
-[chrome-boi]: https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png
-[hamlet]: https://en.wikipedia.org/wiki/To_be,_or_not_to_be#Text
-[babel-stage-2]: https://babeljs.io/docs/plugins/preset-stage-2/
-[eject]: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject
-[browserify]: http://browserify.org/
-[syntactic-sugar]: https://en.wikipedia.org/wiki/Syntactic_sugar
-[swol]: https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13109122_818162874981972_854250567_n.jpg?ig_cache_key=MTI0MDEwMTQwNDQ5MDUyOTM2MQ%3D%3D.2.l
-[hydrofoil]:https://www.google.com/search?q=hydrofoil+catamaran&source=lnms&tbm=isch&sa=X&ved=0ahUKEwia5Yyls-rZAhWIjVkKHdd-A3MQ_AUICygC&biw=1280&bih=659#imgrc=JhI18wkkvwakwM:
-[they-fly]:https://www.youtube.com/watch?v=a49jy9ba4FQ&t=06m
+
+[origin-myth]: "https://en.wikipedia.org/wiki/Tower_of_Babel"
+[TL;DR]: "https://en.wikipedia.org/wiki/TL;DR"
+[babel]: "http://babeljs.io/"
+[transpile-compile]: "https://stackoverflow.com/questions/43968748/is-babel-a-compiler-or-transpiler"
+[chrome-boi]: "https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png"
+[hamlet]: "https://en.wikipedia.org/wiki/To_be,_or_not_to_be#Text"
+[babel-stage-2]: "https://babeljs.io/docs/plugins/preset-stage-2/"
+[eject]: "https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject"
+[browserify]: "http://browserify.org/"
+[syntactic-sugar]: "https://en.wikipedia.org/wiki/Syntactic_sugar"
+[swol]: "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13109122_818162874981972_854250567_n.jpg?ig_cache_key=MTI0MDEwMTQwNDQ5MDUyOTM2MQ%3D%3D.2.l"
+[hydrofoil]: "https://www.google.com/search?q=hydrofoil+catamaran&source=lnms&tbm=isch&sa=X&ved=0ahUKEwia5Yyls-rZAhWIjVkKHdd-A3MQ_AUICygC&biw=1280&bih=659#imgrc=JhI18wkkvwakwM"
+[they-fly]: "https://www.youtube.com/watch?v=a49jy9ba4FQ&t=06m"

@@ -42,20 +42,20 @@ realized that by processing their code with Babel, they could write
 code that's terse and convenient and then have Babel turn that code into
 verbose, compliant JavaScript code.
 
-Let's take as an example how non-standard JSX can be transformed, via Babel,
-into compliant JavaScript. Succinctly, **Babel turns JSX into normal JavaScript
-written with the React library**:
+Let's take as an example how non-standard JSX (JSX is a React specific syntax)
+can be transformed, via Babel, into compliant JavaScript. Succinctly, **Babel
+turns JSX into normal JavaScript written with the React library**:
 
 ```JavaScript
 var profile = (
   <div>
     <img src="avatar.png" className="profile" />
     <h3>{[user.firstName, user.lastName].join(' ')}</h3>
-  </div>;
+  </div>
 )
 ```
 
-...when the above is run through Babel, we receive:
+...when the above is run through Babel, we receive the following executable code:
 
 ```JavaScript
 var profile = (
@@ -64,6 +64,12 @@ var profile = (
   React.createElement("h3", null, [user.firstName, user.lastName].join(" ")))
 );
 ```
+
+_Don't worry if the syntax above is unfamiliar. The sentiment you want to take
+away is that code in the first block, (which looks like some abomination between
+HTML and plain JavaScript), was transformed into valid JavaScript syntax in the
+second block after Babel had a go at it._
+
 
 While you don't **strictly** need Babel as a dependency when writing React
 code, not having it means you have to write in the non-JSX syntax seen in the

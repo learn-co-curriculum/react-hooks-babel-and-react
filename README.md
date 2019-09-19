@@ -86,7 +86,7 @@ In addition to the JSX magic it provides, Babel can also compile other features 
 
 ## Summary
 
-You have just been introduced to a tool you likely have not worked directly with before. Luckily, its straight forward to summarize:
+You have just been introduced to a tool you likely have not worked directly with before. Luckily, it's straightforward to summarize:
 
 **Babel** enables us to use syntax that browsers won't natively recognize by **pre-compiling** it into syntax that browsers _do_ natively recognize. When used with React, this can (and in our case will) include, but not be limited to, digesting JSX.
 

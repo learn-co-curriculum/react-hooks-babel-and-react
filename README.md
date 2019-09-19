@@ -77,12 +77,12 @@ output above. My fingers think that typing that first one is better (because
 they're lazy). My brain also likes that JSX paints an HTML picture in my mind's
 eye. JSX removes the burden on the programmer to calculate an intermediary
 picture of the DOM in their brain when reading this code. For now, we will be
-teaching and writing with the pre-babel-compiled (first syntax above) JSX in
+teaching and writing with the pre-Babel-compiled (first syntax above) JSX in
 our React applications.
 
 #### Not Just For JSX
 
-In addition to the JSX magic it provides, Babel can also compile other features and syntactic sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a babel plugin that enables the usage of [language features proposed for ECMAScript, but not yet implemented][babel-stage-2].
+In addition to the JSX magic it provides, Babel can also compile other features and syntactic sugar that is not yet, or never will be, a part of ECMAScript! One example of this is a Babel plugin that enables the usage of [language features proposed for ECMAScript, but not yet implemented][babel-stage-2].
 
 ## Summary
 

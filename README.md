@@ -66,7 +66,7 @@ var profile = (
 ```
 
 _Don't worry if the syntax above is unfamiliar. The sentiment you want to take
-away is that code in the first block, (which looks like some abomination between
+away is that JSX code in the first block, (which looks like some abomination between
 HTML and plain JavaScript), was transformed into valid JavaScript syntax in the
 second block after Babel had a go at it._
 

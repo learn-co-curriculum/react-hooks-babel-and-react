@@ -76,8 +76,7 @@ code, not having it means you have to write in the non-JSX syntax seen in the
 output above. My fingers think that typing that first one is better (because
 they're lazy). My brain also likes that JSX paints an HTML picture in my mind's
 eye. JSX removes the burden on the programmer to calculate an intermediary
-picture of the DOM in their brain when reading this code. For now, we will be
-teaching and writing with the pre-Babel-compiled (first syntax above) JSX in
+picture of the DOM in their brain when reading this code. So, we teach and write using the pre-Babel-compiled (first syntax above) JSX in
 our React applications.
 
 #### Not Just For JSX
@@ -98,9 +97,6 @@ That was a chunk of new information, and we have even more coming up. If this is
 - [Babel](http://babeljs.io/)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
-
-<sup>1</sup> Before you have any epiphanies on us, this is most likely _not_ where the term "babbling" comes from
-<sup>2</sup> When 'in the field', so to speak, backwards compatibility will be more important
 
 
 [origin-myth]: https://en.wikipedia.org/wiki/Tower_of_Babel

@@ -22,7 +22,7 @@ As you may already know, JavaScript (based on the ECMAScript [ES] standard) is a
 
 Less metaphorically, Babel gained popularity because it [compiled/transpiled][transpile-compile] newer ES6 syntax and language features into the older (and more widely deployed, at that time) ES5. This was especially important when ES6 came out because many browsers had not yet updated their JavaScript engines to interpret the new language features of ES6.
 
-As of 2018, you are less likely to encounter browsers **not** implementing ES6 syntax.<sup>2</sup> For example, open up your browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
+As of 2018, you are less likely to encounter browsers **not** implementing ES6 syntax. For example, open up your Chrome browser's developer console and attempt to assign `let y = 4; console.log(y)`. Better believe Chrome Boi won't complain!
 
 <p align="center">
   <img src='https://learn-verified.s3.amazonaws.com/chrome-boi-wont-complain.png' height=500 width=300/>

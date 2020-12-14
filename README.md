@@ -16,7 +16,7 @@ In this lesson, we'll unpack what **Babel** brings to the table when developing 
 
 If you don't have time to procrastinate and [read the wiki][origin-myth], and
 want to get on with learning programming, allow us to provide the
-[TL;DR][TL;DR] and why it is relevant to the Babel tool we use:
+[TL;DR][tl;dr] and why it is relevant to the Babel tool we use:
 
 The Tower of Babel was a colossal construction project long ago. It was being
 built by a united humanity speaking the same language, with the intention of
@@ -46,7 +46,6 @@ syntax. JavaScript is still updated regularly, and most modern browsers do a
 good job keeping up! If you're ever curious about whether or not a particular
 feature is supported in a browser, [caniuse.com][] is a great resource.
 
-
 #### Then why is Babel important?
 
 If most popular browsers have moved to integrate ES6+ syntax, then why is Babel
@@ -66,19 +65,19 @@ turns JSX into normal JavaScript written with the React library**:
 const profile = (
   <div>
     <img src="avatar.png" className="profile" />
-    <h3>{[user.firstName, user.lastName].join(' ')}</h3>
+    <h3>{[user.firstName, user.lastName].join(" ")}</h3>
   </div>
-)
+);
 ```
 
 ...when the above is run through Babel, we receive the following executable code:
 
 ```js
-var profile = (
-  React.createElement("div", null, 
-    React.createElement("img", { src: "avatar.png", className: "profile"}), 
-    React.createElement("h3", null, [user.firstName, user.lastName].join(' '))
-  )
+var profile = React.createElement(
+  "div",
+  null,
+  React.createElement("img", { src: "avatar.png", className: "profile" }),
+  React.createElement("h3", null, [user.firstName, user.lastName].join(" "))
 );
 ```
 
@@ -126,9 +125,8 @@ lesson.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/babel-and-react'>Babel and React</a> on Learn.co and start learning to code for free.</p>
 
-
 [origin-myth]: https://en.wikipedia.org/wiki/Tower_of_Babel
-[TL;DR]: https://en.wikipedia.org/wiki/TL;DR
+[tl;dr]: https://en.wikipedia.org/wiki/TL;DR
 [babel]: http://babeljs.io/
 [transpile-compile]: https://stackoverflow.com/questions/43968748/is-babel-a-compiler-or-transpiler
 [caniuse.com]: https://caniuse.com/

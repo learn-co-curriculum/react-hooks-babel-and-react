@@ -12,7 +12,7 @@ In this lesson, we'll unpack what **Babel** brings to the table when developing 
 
 ## Babel
 
-![Tower of Babel](http://www.ancient-origins.net/sites/default/files/field/image/tower-of-babel-2.jpg)
+![Tower of Babel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg/500px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg)
 
 This is the Tower of Babel. If you don't have time to procrastinate and
 [read the wiki][origin-myth], and want to get on with learning programming,

@@ -34,7 +34,7 @@ language constructs over time (think ES6 arrow functions, class syntax, `let`,
 and `const` vs. their absence in ES5!). There are also [new features][tc39]
 being introduced into the language regularly. What was needed was a way to move
 all various standards of JavaScript usage to the same standard. **That** is what
-Babel does &mdash; it translates all kinds of new JavaScript features into a
+Babel does — it translates all kinds of new JavaScript features into a
 common, standard code.
 
 Less metaphorically, Babel gained popularity because it

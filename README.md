@@ -62,7 +62,7 @@ JavaScript code.
 Let's take as an example how non-standard JSX (JSX is a React specific syntax)
 can be transformed, via Babel, into valid JavaScript:
 
-```js
+```jsx
 const profile = (
   <div>
     <img src="avatar.png" className="profile" />

@@ -28,13 +28,12 @@ What made this ambitious project possible was that multiple cultures, languages,
 idioms, etc. were all using _a common standard_.
 
 As you may already know, JavaScript (based on the ECMAScript [ES] standard) is
-an evolving language. Over time we have had several iterations. For the most
-part, ECMAScript's evolution has changed to incorporate more features and
-language constructs over time (think ES6 arrow functions, class syntax, `let`,
-and `const` vs. their absence in ES5!). There are also [new features][tc39]
+an evolving language. Over time we have had several iterations that have
+incorporated additional features and language constructs, such as ES6 arrow
+functions, class syntax, `let`, and `const`. There are also [new features][tc39]
 being introduced into the language regularly. What was needed was a way to move
-all various standards of JavaScript usage to the same standard. **That** is what
-Babel does — it translates all kinds of new JavaScript features into a
+all the different standards of JavaScript usage to the same standard. **That**
+is what Babel does — it translates all kinds of new JavaScript features into a
 common, standard code.
 
 Less metaphorically, Babel gained popularity because it
@@ -59,7 +58,7 @@ realized that by processing their code with Babel, they could write code that's
 terse and convenient and then have Babel turn that code into verbose, compliant
 JavaScript code.
 
-Let's take as an example how non-standard JSX (JSX is a React specific syntax)
+Let's take as an example how JSX, which is a React specific syntax,
 can be transformed, via Babel, into valid JavaScript:
 
 ```jsx
@@ -90,7 +89,7 @@ While you don't **strictly** need Babel as a dependency when writing React code,
 there aren't many (if any) developers who write React applications without JSX
 (and therefore Babel). My fingers think that typing that first one is better
 (because they're lazy). My brain also likes that JSX paints an HTML picture in
-my mind's eye. JSX removes the burden on the programmer to calculate an
+my mind's eye. JSX removes the burden on the programmer of calculating an
 intermediary picture of the DOM in their brain when reading this code. So, we
 teach and write using the pre-Babel-compiled (first syntax above) JSX in our
 React applications.
@@ -106,7 +105,7 @@ example of this is a Babel plugin that enables the usage of
 
 **Babel** enables us to use syntax that browsers won't natively recognize by
 **pre-compiling** (or _transpiling_) it into syntax that browsers _do_ natively
-recognize. When used with React, this can includes (but is not limited to)
+recognize. When used with React, this includes (but is not limited to)
 transpiling JSX.
 
 ## Resources
